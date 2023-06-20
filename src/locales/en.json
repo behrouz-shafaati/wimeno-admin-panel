@@ -28,6 +28,7 @@
   },
   "ticket": {
     "title": "Ticket",
+    "titles": "Tickets",
     "new": "New ticket",
     "to": "Department",
     "subject": "Subject",
@@ -53,6 +54,7 @@
   },
   "service": {
     "title": "Service",
+    "titles": "Services",
     "active": "Active",
     "deactive": "Deactive",
     "suspended": "Suspended"
