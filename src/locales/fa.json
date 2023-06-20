@@ -1,0 +1,118 @@
+{
+  "hi": "سلام",
+  "needHelp": "کمک لازمید؟",
+  "plzSendTicket": "تیکت ارسال کنید",
+  "total": "مجموع",
+  "all": "همه",
+  "close": "بستن",
+  "download": "دانلود",
+  "panel" : {
+    "welcomeBack": "خوش آمدید،",
+    "thisIsCustomersPanel": "شما در حال استفاده از پنل مشتریان شرکت نرم افزاری وب نگاه هستید. جهت کسب اطلاعات بیشتر درباره ی خدمات شرکت ما لطفا از وبسایت شرکت بازدید نمایید.",
+    "exploreWebsite": "بررسی وبسایت"
+
+  },
+  "demo": {
+    "title": "فارسی",
+    "introduction": "فارسی Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker."
+  },
+  "dashboard": {
+    "title": "داشبورد"
+  },
+  "account": {
+    "logout": "خروج",
+    "forgotPassword": "رمز عبورتان را فراموش کرده اید؟",
+    "userName": "نام کاربری",
+    "password": "رمز عبور",
+    "rememberMe": "مرا به یاد داشته باش",
+    "dontHaveAccount": "حساب کاربری ندارید؟",
+    "startCreate": "ایجاد حساب",
+    "welcomeBack": "درود، خوش آمدید",
+    "loginTitle": "ورود",
+    "loginSubTitle": "سرویس مشتریان وب نگاه"
+  },
+  "ticket": {
+    "title": "تیکت",
+    "titles": "تیکت ها",
+    "new": "تیکت جدید",
+    "to": "دپارتمان",
+    "subject": "موضوع",
+    "typeContent": "متن تیکت",
+    "send": "ارسال",
+    "create": "ایجاد تیکت",
+    "empty": "تیکتی وجود ندارد",
+    "validateError":{
+      "emptyTitle": "لطفا موضوع را وارد کنید.",
+      "emptyDepartment": "لطفا دپارتمان را انتخاب کنید.",
+      "emptyMessage": "لطفا متن تیکت را بنویسید."
+    },
+    "closed": "بسته شده",
+    "userWaiting": "پاسخ داده شده",
+    "operatorWaiting": "در انتظار پاسخ"
+  },
+  "service":{
+    "title":"سرویس",
+    "titles":"سرویس ها",
+    "active":"فعال",
+    "deactive":"غیر فعال",
+    "suspended":"معلق",
+    "serviceType": "نوع سرویس",
+    "searchPlaceholder": "جستجوی سرویس ...",
+    "name" : "نام سرویس",
+    "description" : "توضیحات",
+    "category" : "دسته بندی",
+    "expireDate" : "تاریخ اتمام",
+    "status" : "وضعیت",
+    "renewal": "تمدید"
+  },
+  "invoice": {
+    "title": "صورتحساب",
+    "titles": "صورتحساب ها",
+    "paid": "پرداخت شده",
+    "unpaid": "پرداخت نشده",
+    "overdue": "عقب افتاده",
+    "list": "لیست",
+    "total": "مجموع",
+    "all": "همه",
+    "invoiceNumber": "شماره فاکتور",
+    "created": "تاریخ ایجاد",
+    "due": "تاریخ سررسید",
+    "amount": "مقدار",
+    "status": "وضعیت",
+    "view": "مشاهده",
+    "invoiceDetails": "جزییات صورتحساب",
+    "from": "فروشنده",
+    "to": "خریدار",
+    "description": "توضیحات",
+    "qty": "تعداد",
+    "unitPrice": "قیمت واحد",
+    "subtotal": "جمع جزء",
+    "discount": "تخفیف",
+    "taxes": "مالیات",
+    "note1": "توجه",
+    "note1Des": "اگر نیاز به اضافه کردن مالیات بر ارزش افزوده یا یادداشت های اضافی دارید، به ما اطلاع دهید!",
+    "contactUs": "تماس با ما",
+    "pay": "پرداخت",
+    "details": "جزییات صورتحساب"
+
+  },
+  "notifications": {
+    "title": "اعلان ها",
+    "newMessage":{
+      "first": "شما",
+      "secont": "پیام جدید دارید"
+    },
+    "new": "جدید"
+  },
+  "frequentlyQuestions": {
+    "title": "سوالات پرتکرار",
+    "q1":"چگونه می توانم NS های دامنه ام را تغییر دهم؟",
+    "a1":"برای تغییر NS دامنه های ایرانی مانند ir. به سایت www.nic.ir مراجعه کنید. در کنترل پنل دامنه خود به بخش دامنه های من بروید و از طریق ستون کارگزارهای دامنه اقدام به تغییر NS نمائید. برای تغییر DNS دامنه های بین المللی مانند .com و .net و .org و .info و …به کنترل پنل چابکان وارد شوید، از بخش لیست دامنه‌ها روی نام دامنه‌ی مورد نظر کلیک کنید. در صفحه ای که باز می‌شود می توانید DNSهای دامنه را تغییر دهید. توجه داشته باشید که پس از تغییر NSها، گاهی تا 72 ساعت طول می‌کشد تا تنظیمات جدید سراسر اینترنت شناخته شوند.",
+    "q2":"حداقل و حداکثر مدت زمان مالکیت دامنه چقدر است؟",
+    "a2":"مدت ثبت دامنه از 1 تا 10 سال می‌باشد. ضمن اینکه می‌توانید قبل از به پایان رسیدن موعد مقرر، برای تمدید آن اقدام نمائید.",
+    "q3":"زمان فعالسازی دامنه های IR و بین المللی به چه صورت است؟",
+    "a3":"دامنه های IR بعد از ثبت می بایست توسط NIC.ir تایید شوند. تایید دامنه‌های IR در شرایط عادی بین 12 الی 24 ساعت زمان می‌برد. درمورد دامنه‌های بین‌المللی، اگر دامنه مد نظر شما جزو دامنه‌های خاص نباشد، بلافاصله بعد از پرداخت فعال می‌شوند.",
+    "q4":"تفاوت park domain و ریدایرکت کردن چیست؟",
+    "a4":"تفاوت Park با Redirect یا Forward در این است که ، وقتی دامنه Park شده را در مرورگر وارد می نمایید ، هیچگاه دامنه اصلی نمایش داده نمی شود و مانند این است که دامنه اصلی سایت را وارد کرده اید ، این در حالی است که در Redirect یا Forward ، زمانی که دامنه Redirect یا Forward شده را در مرورگر وارد می کنید، بلافاصله بعد از زدن دکمه Enter دامنه اصلی وبسایت نمایش داده می شود."
+  }
+}

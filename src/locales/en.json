@@ -1,0 +1,98 @@
+{
+  "hi": "Hi",
+  "needHelp": "Need help?",
+  "plzSendTicket": "Please send ticket",
+  "panel": {
+    "welcomeBack": "Welcome back,",
+    "thisIsCustomersPanel": "You are using the customer service panel of the software company Wimeno. For more information about our company's services, please visit the company's website.",
+    "exploreWebsite": "Explore website"
+  },
+  "demo": {
+    "title": "English",
+    "introduction": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+  },
+  "dashboard": {
+    "title": "Dashboard"
+  },
+  "account": {
+    "logout": "Logout",
+    "forgotPassword": "Forgot password?",
+    "userName": "Username",
+    "password": "Password",
+    "rememberMe": "Remember me",
+    "dontHaveAccount": "Don’t have an account?",
+    "startCreate": "Get started",
+    "welcomeBack": "Hi, Welcome Back",
+    "loginTitle": "Sign in",
+    "loginSubTitle": "Wimeno customer service panel"
+  },
+  "ticket": {
+    "title": "Ticket",
+    "new": "New ticket",
+    "to": "Department",
+    "subject": "Subject",
+    "typeContent": "Ticket content",
+    "send": "Send",
+    "create": "Create ticket",
+    "empty": "There is no ticket",
+    "validateError": {
+      "emptyTitle": "Please enter title.",
+      "emptyDepartment": "Please select department.",
+      "emptyMessage": "Please write ticket message."
+    },
+    "closed": "Closed",
+    "userWaiting": "User waiting",
+    "operatorWaiting": "Operator waiting",
+    "serviceType": "Service type",
+    "searchPlaceholder": "Search placeholder",
+    "name": "Name",
+    "description": "Description",
+    "category": "Category",
+    "expireDate": "Expire date",
+    "status": "Status"
+  },
+  "service": {
+    "title": "Service",
+    "active": "Active",
+    "deactive": "Deactive",
+    "suspended": "Suspended"
+  },
+  "invoice": {
+    "title": "Invoice",
+    "titles": "Invoices",
+    "paid": "paid",
+    "unpaid": "Unpaid",
+    "overdue": "Overdue",
+    "list": "List",
+    "total": "Total",
+    "all": "All",
+    "invoiceNumber": "Number",
+    "created": "Ceated",
+    "due": "Due",
+    "amount": "Amount",
+    "status": "Status",
+    "view": "View",
+    "invoiceDetails": "Details",
+    "from": "Seller",
+    "to": "Buyer",
+    "description": "Description",
+    "qty": "Qty",
+    "unitPrice": "Unit price",
+    "subtotal": "Subtotal",
+    "discount": "Discount",
+    "taxes": "Taxes",
+    "note1": "Note",
+    "note1Des": "Should you need us to add VAT or extra notes let us know!",
+    "contactUs": "Contact us",
+    "pay": "Pay",
+    "details": "Details"
+  },
+  "notifications": {
+    "title": "Notifications",
+    "newMessage": {
+      "first": "You have",
+      "secont": "unread messages(s)"
+    },
+    "new": "New"
+  }
+}
