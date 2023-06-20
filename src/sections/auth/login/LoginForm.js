@@ -28,7 +28,7 @@ import useLocales from '../../../hooks/useLocales';
 export default function LoginForm() {
   const { translate } = useLocales();
   const dispatch = useDispatch();
-  const [login, { isLoading }] = useLoginMutation();
+  const [login, { data, isLoading }] = useLoginMutation();
   // const { login } = useAuth();
 
   const isMountedRef = useIsMountedRef();
@@ -69,7 +69,7 @@ export default function LoginForm() {
       console.error(error);
       reset();
       if (isMountedRef.current) {
-        setError('afterSubmit', { ...error, message: error.message });
+        setError('afterSubmit', { ...error, message: error.data.msg });
       }
     }
   };

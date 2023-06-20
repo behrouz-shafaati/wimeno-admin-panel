@@ -20,7 +20,7 @@ export const LANGS = [
     label: 'English',
     value: 'en',
     systemValue: enUS,
-    icon: 'https://minimal-assets-api.vercel.app/assets/icons/ic_flag_en.svg',
+    icon: `${BASE_URL}/icons/ic_flag_en.svg`,
     direction: 'ltr',
   },
   // {

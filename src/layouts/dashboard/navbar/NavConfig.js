@@ -8,14 +8,16 @@ import SvgIconStyle from '../../../components/SvgIconStyle';
 
 const getIcon = (name) => <SvgIconStyle src={`/icons/${name}.svg`} sx={{ width: 1, height: 1 }} />;
 
-const ICONS = {
+export const ICONS = {
   user: getIcon('ic_user'),
   ecommerce: getIcon('ic_ecommerce'),
   analytics: getIcon('ic_analytics'),
   dashboard: getIcon('ic_dashboard'),
   invoice: getIcon('ic_invoice'),
   service: getIcon('ic_apps'),
-
+  category: getIcon('iconamoon_category-duotone'),
+  role: getIcon('solar_branching-paths-down-bold-duotone'),
+  empty: getIcon('ic_folder_empty'),
   mail: getIcon('ic_mail'),
 };
 
@@ -32,18 +34,18 @@ const sidebarConfig = () => [
         title: i18n.t('ticket.title'),
         path: PATH_DASHBOARD.ticket.root,
         icon: ICONS.mail,
-        info: (
-          <Label variant="outlined" color="error">
-            +32
-          </Label>
-        ),
+        // info: (
+        //   <Label variant="outlined" color="error">
+        //     +32
+        //   </Label>
+        // ),
       },
-      {
-        access: 'create_user_panel',
-        title: i18n.t('invoice.title'),
-        path: '/dashboard/invoice/list',
-        icon: ICONS.invoice,
-      },
+      // {
+      //   access: 'create_user_panel',
+      //   title: i18n.t('invoice.title'),
+      //   path: '/dashboard/invoice/list',
+      //   icon: ICONS.invoice,
+      // },
     ],
   },
 
@@ -68,7 +70,7 @@ const sidebarConfig = () => [
       {
         title: 'Category',
         path: PATH_DASHBOARD.category.root,
-        icon: ICONS.user,
+        icon: ICONS.category,
         children: [
           { access: 'get_categorys', title: 'list', path: PATH_DASHBOARD.category.list },
           { access: 'add_category', title: 'create', path: PATH_DASHBOARD.category.new },
@@ -78,7 +80,7 @@ const sidebarConfig = () => [
       {
         title: 'Role',
         path: PATH_DASHBOARD.role.root,
-        icon: ICONS.user,
+        icon: ICONS.role,
         children: [
           { access: 'get_users_panel', title: 'list', path: PATH_DASHBOARD.role.list },
           { access: 'create_user_panel', title: 'create', path: PATH_DASHBOARD.role.new },

@@ -24,12 +24,12 @@ const MENU_OPTIONS = [
   },
   {
     label: 'Profile',
-    linkTo: '/',
+    linkTo: PATH_DASHBOARD.user.account,
   },
-  {
-    label: 'Settings',
-    linkTo: '/',
-  },
+  // {
+  //   label: 'Settings',
+  //   linkTo: '/',
+  // },
 ];
 
 // ----------------------------------------------------------------------
@@ -115,17 +115,17 @@ export default function AccountPopover() {
           </Typography>
         </Box>
 
-        {/* <Divider sx={{ borderStyle: 'dashed' }} />
+        <Divider sx={{ borderStyle: 'dashed' }} />
 
         <Stack sx={{ p: 1 }}>
           {MENU_OPTIONS.map((option) => (
-            <MenuItem key={option.label} to={option.linkTo} onClick={handleClose}>
+            <MenuItem key={option.label} component={RouterLink} to={option.linkTo} onClick={handleClose}>
               {option.label}
             </MenuItem>
           ))}
         </Stack>
 
-        <Divider sx={{ borderStyle: 'dashed' }} /> */}
+        <Divider sx={{ borderStyle: 'dashed' }} />
 
         <MenuItem onClick={handleLogout} sx={{ m: 1 }}>
           {translate('account.logout')}

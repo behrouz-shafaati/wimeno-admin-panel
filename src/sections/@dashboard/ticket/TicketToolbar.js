@@ -126,8 +126,9 @@ export default function TicketToolbar({
         }}
       />
       <TablePagination
+        sx={{ border: 'none' }}
         component="div"
-        count={count}
+        count={count || 0}
         rowsPerPage={rowsPerPage}
         page={page}
         onPageChange={onChangePage}

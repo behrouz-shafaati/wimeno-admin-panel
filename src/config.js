@@ -39,7 +39,7 @@ export const ICON = {
 export const defaultSettings = {
   themeMode: 'light',
   themeDirection: 'ltr',
-  themeColorPresets: 'purple',
+  themeColorPresets: 'orange',
   themeLayout: 'horizontal',
   themeStretch: false,
 };

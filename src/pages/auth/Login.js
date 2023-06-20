@@ -118,7 +118,6 @@ export default function Login() {
                     src={`https://minimal-assets-api.vercel.app/assets/icons/auth/ic_${method}.png`}
                     sx={{ width: 32, height: 32 }}
                   /> */}
-                  <Image disabledEffect src={`${BASE_URL}/icons/wimeno.svg`} sx={{ width: 52, height: 52 }} />
                 </>
               </Tooltip>
             </Stack>

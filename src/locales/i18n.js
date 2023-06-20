@@ -17,16 +17,16 @@ i18n
       en: { translations: enLocales },
       de: { translations: deLocales },
       fa: { translations: faLocales },
-      fr: { translations: frLocales }
+      fr: { translations: frLocales },
     },
-    lng: localStorage.getItem('i18nextLng') || 'fa',
-    fallbackLng: 'fa',
+    lng: localStorage.getItem('i18nextLng') || 'en',
+    fallbackLng: 'en',
     debug: false,
     ns: ['translations'],
     defaultNS: 'translations',
     interpolation: {
-      escapeValue: false
-    }
+      escapeValue: false,
+    },
   });
 
 export default i18n;
