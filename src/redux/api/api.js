@@ -3,7 +3,8 @@ import { v4 as uuidv4 } from 'uuid';
 import { setCredentials } from '../slices/authSlice';
 
 const baseQuery = fetchBaseQuery({
-  baseUrl: 'http://localhost:8000/v1',
+  // baseUrl: 'http://localhost:8000/v1',
+  baseUrl: 'https://wimeno-api.onrender.com/v1',
   credentials: 'include',
   prepareHeaders: (headers, { getState }) => {
     const token = getState().auth.token;
