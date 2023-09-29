@@ -42,8 +42,8 @@ export default function LoginForm() {
   });
 
   const defaultValues = {
-    username: '',
-    password: '',
+    username: 'behrouz.shafaati@gmail.com',
+    password: 'admin',
     remember: true,
   };
 
